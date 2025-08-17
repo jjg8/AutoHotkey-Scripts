@@ -1,7 +1,7 @@
 ﻿#Requires AutoHotkey v2.0.19
 ; Name:        Alt+Hex entry.ahk
 ; Version:     2025-08-16.2
-; Description: Use AutoHotkey to isolate the Alt,Numpad+ combo to enter a 4-digit HEX code or Alt,Shift,Numpad+ to enter a 5-digit HEX code
+; Description: Use AutoHotkey to isolate the Alt,Numpad+ combo to enter a Unicode 4-digit HEX code or Alt,Shift,Numpad+ to enter a 5-digit HEX code
 ; Author:      Jeremy Gagliardi
 ; License:     GPL v3
 ; URL:         https://github.com/jjg8/AutoHotkey-Scripts/tree/main/Alt%2BHex%20entry.ahk
@@ -161,3 +161,4 @@ ShowTip(text := "") {
   ; v2’s built-in ToolTip command shows text when non-empty, hides it when empty
   Tooltip(text, 20, 80)
 }
+
